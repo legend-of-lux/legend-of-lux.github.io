@@ -14,30 +14,30 @@
 		font-family: 'PixelMplus10';
 		background-color: #85B511;
 		color: #303030;
-		background-image: url('japan.png');
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-attachment: fixed;
+	}
+	.bg {
+		z-index: 0;
+		position: fixed;
+		margin: auto;
 	}
 	.title {
 		width: 200px;
 		text-align: center;
 	}
 	#main_title {
-		font-size: 2.75em;
+		font-size: 2.55em;
 		margin-bottom: 5px;
 	}
 	#sub_title {
-		font-size: 1.55em;
+		font-size: 1.5em;
 		margin-top: 5px;
 	}
 	.center {
-		width: 200px;
+		width: 204px;
 		margin: 0 auto;
 	}
 	.logo {
-		margin: 200px 0;
+		margin: 204px 0;
 	}
 	.titles {
 		margin: 50px 0;
@@ -54,6 +54,7 @@
 </style>
 </head>
 <body>
+	<img class="bg" src="japan.png">
 	<div id="wrapper">
 		<div id="scroller">
 			<div class="center">
